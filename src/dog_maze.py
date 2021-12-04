@@ -38,7 +38,6 @@ class DogMaze():
         self._robot_locations = [6, 10, 14, 25, 33]
         self._bone_locations = [5, 7, 9, 16, 19, 26, 30]
         self.reset()
-        self.check()
 
     def reset(self):
         self._state = np.zeros((36,), dtype=np.int32)
@@ -82,9 +81,6 @@ class DogMaze():
 
     def game_state(self):
         return self._state
-
-    def check(self):
-        print(self._state.reshape(6, 6))
 
 
 # main
