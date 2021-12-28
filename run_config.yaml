@@ -1,0 +1,46 @@
+---
+BASIC_ITEMS:
+  - cotton
+  - tree
+  - rock
+  - quartz
+# ------------------------------------------------------------------------------
+# Normal crafting counts
+# ------------------------------------------------------------------------------
+GAME_PLAY: normal
+COUNTS: counts_normal.csv
+CONST_TIME: 5
+
+# ------------------------------------------------------------------------------
+# 1 min crafting events
+# ------------------------------------------------------------------------------
+# GAME_PLAY: 1min
+# CONST_TIME = 1
+
+
+# ------------------------------------------------------------------------------
+# Demand
+# ------------------------------------------------------------------------------
+CRAFT_PIECES:
+  - string: 0
+  - wood: 0
+  - ribbon: 0
+  - metal: 0
+  - needles: 0
+  - sparkles: 0
+  - bronze: 0
+  - silver: 0
+  - gold: 4
+  - amethyst: 0
+  - pendant: 12
+  - necklace: 3
+  - orb: 0
+  - water: 0
+  - fire: 5
+  - waterstone: 6
+  - firestone: 2
+  - elementstone: 1
+  - artifact: 0
+
+INIT_COINS: 0
+CURRENT_LEVEL: 57
